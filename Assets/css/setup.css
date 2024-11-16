@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+:root{
+--inter:Inter;
+  --ks:Kumbh Sans;
+}
+
+.font-inter{
+    font-family: var(--inter);
+}
+
+.font-ks{
+    font-family: var(--ks);
+}
+.bg-y55{
+  background-color: #FFD11A;
+}
+
+.text-g60{
+  color: #98989A;
+}
+.bg-b8{
+  background-color:#141414;
+}
+.bg-b10{
+  background-color: #1A1A1A;
+}
+
+.text-g50{
+  color:#7E7E81;
+}
+
+
+body{
+  background-color: #141414;
+}
+
+.navos{
+  border-color:#7E7E81 !important;
+}
+.active-link{
+  
+}

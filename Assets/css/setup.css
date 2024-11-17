@@ -4,6 +4,11 @@
   --ks:Kumbh Sans;
 }
 
+.osama-container{
+  width: calc(100% - 160px);
+  margin: auto;
+}
+
 .font-inter{
     font-family: var(--inter);
 }
@@ -28,15 +33,19 @@
 .text-g50{
   color:#7E7E81;
 }
-
-
-body{
-  background-color: #141414;
-}
-
 .navos{
   border-color:#7E7E81 !important;
 }
-.active-link{
+.text-b40{
+color: #666666;
+}
+
+
+
+@media screen and (max-width:760px) {
+  .osama-container{
+    width: 95%;
+    margin: 0;
+  }
   
 }

@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/setup.css">
+    <link rel="stylesheet" href="./Assets/css/index/index.css">
     <title>Home</title>
 </head>
-<body>
+<body data-bs-theme="dark" class="bg-b8">
+  <!--Notification-->
  <div class="top-banner d-flex align-items-center gap-2 justify-content-center py-3">
     <p class="text-g60 m-0 font-inter">Subscribe to our Newsletter For New & latest Blogs and Resources</p>
     <img src="./Assets/public/icons/Icon (1).svg" alt="arrow icon" >
  </div>
-<header class="bg-b10 border-top border-bottom font-inter border-dark border-2">
-    <div class="container-fluid">
- <nav class="navbar navbar-expand-lg  " data-bs-theme="dark">
+
+
+ <!--Navbar-->
+<header class="sticky-top bg-b10 border-top border-bottom font-inter py-2 border-dark border-2">
+    <div class="osama-container">
+ <nav class="navbar navbar-expand-lg  " >
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./Assets/public/icons/Logo.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +27,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav m-auto">
-          <a class="nav-link active bg-b8 py-2 px-3 rounded border mx-2" aria-current="page" href="#">Home</a>
+          <a class="nav-link active bg-b8 py-2 px-3 rounded border " aria-current="page" href="#">Home</a>
           <a class="nav-link" href="./news.html">News</a>
           <a class="nav-link" href="./podcasts.html">Podcast</a>
           <a class="nav-link" href="./Resources.html">Resources</a>
@@ -36,16 +41,69 @@
 </div>
 </header>
 
+<!--Content-->
+<main>
+
+  <!--First section-->
+ <section class="first-section">
+  <div class="osama-container">
+    <div class="row vh-100 ">
+      <div class="start d-flex flex-column m-0 justify-content-between col-lg-7 col-sm-12 ">
+      <div class="flex-grow-1 border-bottom border-dark-subtle border-1 top-start py-5 pe-5  d-flex flex-column  justify-content-center">
+        <p class="font-ks text-b40 mb-3 fs-4">Your Journey to Tomorrow Begins Here</p>
+        <h2 class="font-ks fw-semibold text-white  mb-3  header">Explore the Frontiers of Artificial Intelligence</h2>
+        <p class="font-inter text-b40">Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines think, learn, and reshape the future. Join us on this visionary expedition into the heart of AI.</p>
+      </div>
+
+
+      <div class="cards row">
+        <div class="conut-card col-4 border-1 border-dark-subtle border-end p-4">
+          <h3 class="font-inter fw-bold pb-1 m-0 pt-1 cc-300">300<span class="fw-bolder text-warning">+</span></h3>
+          <p class="text-b40">Resources available</p>
+        </div>
+        <div class="conut-card col-4 border-1 border-dark-subtle border-end p-4">
+          <h3 class="font-inter fw-bold pb-1 m-0  pt-1 cc-12k">12 k<span class="fw-bolder text-warning">+</span></h3>
+          <p class="text-b40">Total Downloads</p>
+        </div>
+        <div class="conut-card col-4 border-1 border-dark-subtle  p-4">
+          <h3 class="font-inter fw-bold  pt-1 m-0 cc-10k">10 k<span class="fw-bolder text-warning">+</span></h3>
+          <p class="text-b40">Active Users</p>
+        </div>
+        
+      </div>
+    </div>
+      <div class="end m-0 col-lg-5 col-sm-12 overflow-hidden font-inter position-relative d-flex flex-column justify-content-end">
+        <img src="./Assets/public/images/Light.png" class="light-image position-absolute " alt="">
+        <div class="images  z-1 p-2 rounded-pill">
+          <img src="./Assets/public/users/Image (3).png" class="img-fluid rounded-circle" style="width:50px; height: 50px;" alt="">
+          <img src="./Assets/public/users/Image (4).png" class="img-fluid rounded-circle" style="width:50px; height: 50px;" alt="">
+          <img src="./Assets/public/users/Image (5).png" class="img-fluid rounded-circle" style="width:50px; height: 50px;" alt="">
+          <img src="./Assets/public/users/Image (3).png" class="img-fluid rounded-circle" style="width:50px; height: 50px;" alt="">
+        </div>
+        <div class="text z-1">
+        <h4 class="fs-1">Explore 1000+ resources</h4>
+        <p class="text-b40 mt-4">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
+      </div>
+      <button class="dark-btn text-b40 z-1">Explore Resources <img src="./Assets/public/icons/Icon (1).svg" alt=""></button>
+    </div>
+    </div>
+  </div>
+ </section>
 
 
 
-
+ <section class="section-2">
+  <div class="osama-container">
+    
+  </div>
+ </section>
+</main>
 
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+  <script src="./Assets/javascript/index/index.js"></script>
 </body>
 </html>

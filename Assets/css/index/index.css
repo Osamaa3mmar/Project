@@ -1,0 +1,50 @@
+.header{
+    font-size: 50px;
+}
+
+.top-start{
+    padding-top: 100px !important;
+}
+
+.light-image{
+    transform: rotate(50deg);
+    top: 40px;
+    left: -10px;
+    scale: 1.5;
+}
+.first-section{
+  
+}
+.first-section .end{
+padding: 50px;
+padding-top: 200px;
+gap: 20px;
+}
+.first-section .start{
+    border-right: 1px #343a40 solid !important;
+    padding: 0px;
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width:760px) {
+    .first-section .start{
+        border: none !important;
+    }
+    
+  }
+.first-section .end .images{
+    width: fit-content;
+    background-color: #1A1A1A;
+    border: 1px #343a40 solid;
+}
+.dark-btn{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px ;
+    border: 1px #343a40 solid;
+    border-radius: 8px;
+    gap: 10px;
+}
